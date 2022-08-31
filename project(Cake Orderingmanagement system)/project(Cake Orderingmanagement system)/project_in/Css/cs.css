@@ -1,0 +1,314 @@
+/*change head color*/
+<!------------------------------------------------change head color----------------------------->
+h1{ color:purple;
+}
+html{
+
+text-align:center;
+}
+
+/*add some property */
+
+<!------------------------------------------------add some property ---------------------------->
+
+head{text-align:center;}
+.about{
+border:5px solid black;
+
+text-align:center;
+width:800px;
+margin:-38px auto;
+background-color:pink;}
+/*Add image background*/
+body{font-family:"Times New Roman", Times, serif; background-image:url('../image/Back.jpg');
+
+}
+.mySlides1 {
+width:500px; height:20px;}
+.mySlides2 {display: none;
+width:500; ,height:20px;}
+.mySlides3 {display: none;
+width:100%; ,height:100%;}
+.mySlides4{display: none;
+width:100%; ,height:100%;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+
+.slideshow-container {
+ float: left; 
+
+     padding-bottom: 20px;
+  position: relative;
+  margin-bottom:500px ;
+  width: 1500px;height:20px 
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+.topnav2{margin-top:-10px;
+margin-left:-10px;
+margin-right:-10px;
+
+    background-color: #333;
+    overflow: hidden;	
+	
+}
+ul {
+  list-style-type: none;
+ 
+  
+}/*link the Other page*/
+a{text-decoration:none;}
+li {
+  display: inline;
+  color:white;
+ margin-bottom:90px;
+ text-align:center;
+  
+}
+	nav{
+	
+	font-size:18px;
+	background-color:white;
+	margin-bottom:0px;
+  display: flex;
+  width: 100%;
+  height: 12%;
+ 
+  align-items: center;
+  justify-content: center;
+}
+
+a{
+  text-decoration: none;
+  color: rgba(0,0,0,0.8);
+  margin: 0 40px;
+}
+/*list the header logo*/
+#logo{
+  width: 100px;
+  height: 100%;
+  background: rgba(0,0,0,0.3);
+}
+   /* started footer*/ 
+.footer-distributed{
+	background-color:#080707;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.6);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+ margin-left:-10px;
+ width:120%;
+	padding: 35px 30px;
+	margin-top: 80px;
+}
+ 
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+} /*Footer left Rights to the site*/
+ 	<!---------------------------------------- footer left ----------------------------------------------->
+.footer-distributed .footer-left{
+	width: 10%;
+}
+ 
+.footer-distributed h3{
+	color: #454141;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+ 
+.footer-distributed h3 span{
+	color:  #9A9999;
+}
+ 
+ 
+.footer-distributed .footer-links{
+	color:#9A9999;
+	margin: 10px 0 6px;
+	padding: 0;
+}
+ 
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 0.8;
+	text-decoration: none;
+	color:  inherit;
+}
+ 
+.footer-distributed .footer-company-name{
+	color: #9A9999;
+	font-size: 8px;
+	font-weight: normal;
+	margin: 0;
+}
+ /*Footer  center*/
+ 	<!---------------------------------------- footer center ----------------------------------------------->
+.footer-distributed .footer-center{
+	width: 30%;
+}
+ /* Email and phone and address*/
+.footer-distributed .footer-center i{
+	background-color: #9A9999;
+	color: #ffffff;
+	font-size: 6px;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 22px;
+	margin: 5px 10px;
+	vertical-align: middle;
+}
+ 
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 6px;
+	line-height: 22px;
+}
+ 
+.footer-distributed .footer-center p{
+	display:inline-block;
+	color: #f2eded;
+        font-size:8px;
+	vertical-align: middle;
+	margin:0;
+}
+ 
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:8px;
+	line-height:1;
+}
+ 
+.footer-distributed .footer-center p a{
+	color: #f2eded;
+	text-decoration: none;;
+}
+ 
+.footer-distributed .footer-right{
+	width: 50%;
+}
+ 
+.footer-distributed .footer-company-about{
+	line-height: 10px;
+	color: #f2eded;
+	font-size: 4px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+.footer-distributed .footer-company-about span{
+	display: block;
+	color: #3b3838;
+	font-size: 4px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+ 
+ 
+
+	
+ 		<!---------------------------------------- footer center ----------------------------------------------->
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+	.main {
+		line-height: normal;
+		font-size: auto;
+	}
+ 
+}
+
+/*Add icons in footer*/
+/*-------------------------------------footer---------------------------------------*/
+#footer {
+	background: url(footer-bg.jpg) no-repeat scroll center center;
+	background-color: #000000;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	overflow: hidden;
+	padding: 2% 0;
+}
+#footer div p {
+	color: #FFFFFF;
+	margin: 2% 0;
+	font-size: 90%;
+	font-weight: normal;
+	font-family: "Calibri Light";
+	text-align: center;
+	text-transform: none;
+}
+#footer div .connect {
+	display: block;
+	margin: 0 auto;
+	max-width: none;
+	overflow: hidden;
+	padding: 0;
+	width: 18%;
+}
+#footer div .connect a {
+	background: url(../icons.png) no-repeat;
+	display: block;
+	float: left;
+	height: 30px;
+	width: 30px;
+	margin: 0 6%;
+	padding: 0;
+	text-indent: -99999px;
+	
+}
+#footer div .connect a.facebook { background-position: 0 0;}
+#footer div .connect a.googleplus { background-position: 0 -32px;}
+#footer div .connect a.pinterest { background-position: 0 -64px;}
+#footer div .connect a.twitter {background-position: 0 -96px;}
+
+
+
+}/*End the footer*/
+<!------------------------------------------ End footer conact---------------------------------------------->

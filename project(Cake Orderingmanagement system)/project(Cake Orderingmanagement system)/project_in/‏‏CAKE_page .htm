@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html >
+<head>
+<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="footer, address, phone, icons" />
+ 
+	
+	<!---------------------------------------- Add Bootstrap (image )in footer---------------------------------------->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <title>cake ordering page</title>
+  
+   <link href="Css/s.css" type="text/css" rel="stylesheet" />
+<script type ="text/javascript"   src="JavaScript/External.js" ></script>
+
+  
+<link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body> 
+
+
+
+  <!-- Slideshow container -->
+<style>
+.topnav2{margin-top:-45px;
+margin-left:-10px;
+margin-right:-10px;}
+	p{ text-align:center;
+font-size:18px;}
+#register{width:50%; text-align:center;
+margin-top:20px;
+margin-left:70px;
+background-color:#ffb6c1;
+height:30px;}
+
+	nav{
+	
+	font-size:18px;
+	background-color:white;
+	margin-bottom:0px;
+  display: flex;
+  width: 100%;
+  height: 12%;
+ 
+  align-items: center;
+  justify-content: center;
+}
+
+a{
+  text-decoration: none;
+  color: rgba(0,0,0,0.8);
+  margin: 0 40px;
+}
+
+#logo{
+  width: 100px;
+  height: 100%;
+  background: rgba(0,0,0,0.3);
+}
+    
+
+    
+     
+
+.mySlides1 {
+width:500px; height:20px;}
+.mySlides2 {display: none;
+width:500; ,height:20px;}
+.mySlides3 {display: none;
+width:100%; ,height:100%;}
+.mySlides4{display: none;
+width:100%; ,height:100%;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+
+.slideshow-container {
+ float: left; 
+
+     padding-bottom: 20px;
+  position: relative;
+  margin-bottom:500px ;
+  width: 1500px;height:20px 
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+
+</style>
+
+<br> <br> 
+ <div>
+
+        <!--  header-->
+        
+          <header>       
+               
+			<b><div class="topnav2" >
+			<nav>
+
+                <ul>
+                    <li><a  href='home.html'>Home</a></li>
+<li><a href='image/LOG_IN.html'>Log in</a></li>
+                    <li><a href='Sing_in.html'>Sign up</a></li>
+			<IMG SRC="image/logo.jpeg"  id="logo" width="300px" height="300px" > </IMG>
+                   
+					 <li><a href='‏‏CAKE_page .htm'>Ordering</a></li>
+					  <li><a href='pay_method.html'>Payment</a></li>
+				
+                </ul> 
+				
+<b>
+				</nav>
+            </div>
+<!-----Each product has its own image, measurements, number and addition in the basket------>
+
+<div  class="slideshow-container">
+
+<div class="mySlides fade1">
+  <div class="numbertext" ;>1 / 4</div>
+  <img src="image/تنزيل (4).jpg" width="1500px" height="500px">
+  
+</div>
+
+<div class="mySlides fade2">
+  <div class="numbertext">2 / 4</div>
+  <img src="image/Flavourtown-bakery-Londons_Best-birthday-cake-08_2048x2048.jpg" width="1500px" height="500px">
+  
+</div>
+
+<div class="mySlides fade3">
+  <div class="numbertext">3 / 4</div>
+  <img src="image/Almond-Cream-Cake-FB-IG-2.jpg" width="1500px" height="500px">
+  
+</div>
+<div class="mySlides fade4">
+  <div class="numbertext"> 4/ 4</div>
+  <img src="image/image.jpg" width="1500px" height="500px">
+  
+</div>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span> 
+</div>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+
+
+</script>
+
+
+
+ 
+
+
+<p id="demo" style="color:#ffdab9"></p>
+<B><em><h1 style="color:#87cefa"  >Please Choose your Favorite Product:</h1></em></B>
+<script>
+var d = new Date();
+
+document.getElementById("demo").innerHTML = d;
+</script>
+<div class="product">
+<div class="div1" style="color:pink" >
+ 
+<h2 style="color:pink">Strawberry Cakes</h2>
+ <div>
+                <IMG SRC="image/images.jpg" width="300px" height="300px" > </IMG> <br> 
+                <div>
+                    <h3  id="Type_cake1">Strawberry Cake</h3>
+                    <h4 id="price1">190.90</h4>
+                    <h4>$</h4>
+                </div>
+               
+                    <input type="number" id="quantity1" name="quantity1" min="1" max="10" value="1"style="background-color:#ffe4e1">
+                    <select id="size1" name="size1" onclick="deleteE('message1')" style="background-color:#ffe4e1">
+                        <option value="size" disabled selected>Size</option>
+                        <option value="large size">large size</option>
+                        <option value="Small size">Small size</option>
+                        <option value="Medium size">Medium size</option>
+                        
+                    </select>
+                    <div>
+                        <button class="addTo" onclick="add(1)">Add<i class="fa fa-shopping-cart"></i></button>
+                    </div>
+                </div><div>
+                <p id="message1"></p>
+            </div></div>
+
+ <div class="div2" style="color:pink">
+<IMG SRC="image/Fresh-Strawberry-Cake-with-Strawberry-Frosting-3.jpg"  width="300px" height="300px" > </IMG> <br> 
+                <div>
+                    <h3  id="Type_cake2">Strawberry Cake</h3>
+                    <h4 id="price2">120.90</h4>
+                    <h4>$</h4>
+                </div>
+               
+                    <input type="number" id="quantity2" name="quantity2" min="1" max="10" value="1" style="background-color:#ffe4e1">
+                    <select id="size2" name="size2" onclick="deleteE('message2')" style="background-color:#ffe4e1">
+                        <option value="size" disabled selected>Size</option>
+                        <option value="large size">large size</option>
+                        <option value="Small size">Small size</option>
+                        <option value="Medium size">Medium size</option>
+                        
+                    </select>
+                    <div>
+                        <button class="addTo" onclick="add(2)">Add<i class="fa fa-shopping-cart"></i></button>
+                    </div>
+                </div><div>
+                <p id="message2"></p>
+            </div></div>
+
+ <div class="div3" style="color:pink">
+<IMG SRC="image/_x__X4FaKDjLpCgIEKouAosG.jpg"  width="300px" height="300px" > </IMG> <br> 
+<div>
+                    <h3  id="Type_cake3">Strawberry Cheesecakes</h3>
+                    <h4 id="price3">100.0</h4>
+                    <h4>$</h4>
+                </div>
+               
+                    <input type="number" id="quantity3" name="quantity3" min="1" max="10" value="1" style="background-color:#ffe4e1">
+                    <select id="size3" name="size3" onclick="deleteE('message3')" style="background-color:#ffe4e1">
+                        <option value="size" disabled selected>Size</option>
+                        <option value="large size">large size</option>
+                        <option value="Small size">Small size</option>
+                        <option value="Medium size">Medium size</option>
+                        
+                    </select>
+                    <div>
+                        <button class="addTo" style="font-size:12px" onclick="add(3)">Add <i class="fa fa-shopping-cart"></i></button>
+                    </div>
+                </div><div>
+                <p id="message3"></p>
+            </div></div>
+<div class="div4" style="color:red">
+<h2>Red Velvet cakes</h2>
+<div>
+                <IMG SRC="image/images (1).jpg" width="300px" height="300px" > </IMG> <br>
+                <div>
+                    <h3  id="Type_cake4">Red Velvet cake</h3>
+                    <h4 id="price1">100.90</h4>
+                    <h4>$</h4>
+                </div>
+               
+                    <input type="number" id="quantity4" name="quantity4" min="1" max="10" value="1" style="background-color:#ffe4e1">
+                    <select id="size4" name="size4" onclick="deleteE('message4')" style="background-color:#ffe4e1">
+                        <option value="size" disabled selected>Size</option>
+                        <option value="large size">large size</option>
+                        <option value="Small size">Small size</option>
+                        <option value="Medium size">Medium size</option>
+                        
+                    </select>
+                    <div>
+                        <button class="addTo" onclick="add(4)">Add<i class="fa fa-shopping-cart"></i></button>
+                    </div>
+                </div><div>
+                <p id="message4"></p>
+            </div></div>
+<div class="div5" style="color:red">
+
+               <IMG SRC="image/17912b9ee834be96e39f863c8c2fd7cb.png"  width="300px" height="300px"> </IMG> <br>
+                <div>
+                    <h3  id="Type_cake5">Red Velvet cake</h3>
+                    <h4 id="price5">100.90</h4>
+                    <h4>$</h4>
+                </div>
+               
+                    <input type="number" id="quantity5" name="quantity5" min="1" max="10" value="1" style="background-color:#ffe4e1">
+                    <select id="size5" name="size5" onclick="deleteE('message5')" style="background-color:#ffe4e1">
+                        <option value="size" disabled selected>Size</option>
+                        <option value="large size">large size</option>
+                        <option value="Small size">Small size</option>
+                        <option value="Medium size">Medium size</option>
+                        
+                    </select>
+                    <div>
+                        <button class="addTo" onclick="add(5)">Add<i class="fa fa-shopping-cart"></i></button>
+                    </div>
+                </div><div>
+                <p id="message5"></p>
+            </div></div>
+
+<div class="div6" style="color:red">
+
+               <IMG SRC="image/Red-Velvet-Cheesecake-Recipe-3-Photo-The-Best-Cheesecake-Recipes.jpg" width="300px" height="300px"> </IMG> <br>
+                <div>
+                    <h3  id="Type_cake6">Red Velvet Cheesecake</h3>
+                    <h4 id="price6">190.0</h4>
+                    <h4>$</h4>
+                </div>
+               
+                    <input type="number" id="quantity6" name="quantity6" min="1" max="10" value="1" style="background-color:#ffe4e1">
+                    <select id="size6" name="size6" onclick="deleteE('message6')" style="background-color:#ffe4e1">
+                        <option value="size" disabled selected>Size</option>
+                        <option value="large size">large size</option>
+                        <option value="Small size">Small size</option>
+                        <option value="Medium size">Medium size</option>
+                        
+                    </select>
+                    <div>
+                        <button class="addTo" onclick="add(6)">Add<i class="fa fa-shopping-cart"></i></button>
+                    </div>
+                <div>
+                <p id="message6"></p>
+            </div></div></div>
+
+
+
+
+<div class="div7" style="color:#e9967a">
+<h2>Vanilla cakes</h2>
+
+<IMG SRC="image/تنزيل (1).jpg" width="300px" height="300px"> </IMG> <br>
+ <div>
+                    
+<h3  id="Type_cake7">Vanilla cake</h3>
+<h4 id="price7">70.0</h4>
+                    <h3>$</h3>
+                </div>
+               
+                    <input type="number" id="quantity7" name="quantity7" min="1" max="10" value="1"style="background-color:#ffe4e1">
+                    <select id="size7" name="size7" onclick="deleteE('message7')" style="background-color:#ffe4e1">
+                        <option value="size" disabled selected>Size</option>
+                        <option value="large size">large size</option>
+                        <option value="Small size">Small size</option>
+                        <option value="Medium size">Medium size</option>
+                        
+                    </select>
+                    <div>
+                        <button class="addTo" onclick="add(7)">Add<i class="fa fa-shopping-cart"></i></button>
+                    </div>
+                </div><div>
+                <p id="message7"></p>
+            </div></div>
+
+
+<div class="div8" style="color:#e9967a">
+<IMG SRC="image/-Vanilla-.jpg" width="300px" height="300px" > </IMG> <br>
+<div>
+                    <h3  id="Type_cake8">Vanilla cake</h3>
+<h4 id="price8">90.0</h4>
+                    <h3>$</h3>
+                </div>
+               
+                    <input type="number" id="quantity8" name="quantity8" min="1" max="10" value="1" style="background-color:#ffe4e1">
+                    <select id="size8" name="size8" onclick="deleteE('message8')" style="background-color:#ffe4e1">
+                        <option value="size" disabled selected>Size</option>
+                        <option value="large size">large size</option>
+                        <option value="Small size">Small size</option>
+                        <option value="Medium size">Medium size</option>
+                        
+                    </select>
+                    <div>
+                        <button class="addTo" onclick="add(8)">Add<i class="fa fa-shopping-cart"></i></button>
+                    </div>
+                </div><div>
+                <p id="message1"></p>
+            </div></div>
+
+<div class="div9" style="color:#e9967a">
+<IMG SRC="image/صورة1.jpg" width="300px" height="300px" > </IMG> <br> <div>
+<h3  id="Type_cake9">Vanilla Cheesecake</h3>
+<h4 id="price9">70.0</h4>
+                    <h3>$</h3>
+                </div>
+              
+                    <input type="number" id="quantity9" name="quantity9" min="1" max="10" value="1" style="background-color:#ffe4e1">
+                    <select id="size9" name="size9" onclick="deleteE('message9')" style="background-color:#ffe4e1">
+                        <option value="size" disabled selected>Size</option>
+                        <option value="large size">large size</option>
+                        <option value="Small size">Small size</option>
+                        <option value="Medium size">Medium size</option>
+                        
+                    </select>
+                    <div>
+                        <button class="addTo" onclick="add(9)">Add<i class="fa fa-shopping-cart"></i></button>
+                    </div>
+                </div><div>
+                <p id="message9"></p>
+            </div>
+</div>
+
+<div class="div10" style="color:#b8860b">
+<h2>Chocolate cakes</h2>
+<IMG SRC="image/تنزيل.jpg"  width="300px" height="300px"> </IMG> <br>
+<div>
+                    <h3  id="Type_cake10">Chocolate cake</h3>
+                    <h4 id="price10">150.90</h4>
+                    <h4>$</h4>
+                </div>
+               
+                    <input type="number" id="quantity10" name="quantity10" min="1" max="10" value="1" style="background-color:#ffe4e1">
+                    <select id="size10" name="size10" onclick="deleteE('message10')" style="background-color:#ffe4e1">
+                        <option value="size" disabled selected>Size</option>
+                        <option value="large size">large size</option>
+                        <option value="Small size">Small size</option>
+                        <option value="Medium size">Medium size</option>
+                        
+                    </select>
+                    <div>
+                        <button class="addTo" onclick="add(10)">Add<i class="fa fa-shopping-cart"></i></button>
+                    </div>
+                </div><div>
+                <p id="message10"></p>
+            </div></div>
+<div class="div11"style="color:#b8860b">
+<IMG SRC="image/202685_0-803-5447-5447.jpg"width="300px" height="300px" > </IMG> <br>
+<div>
+                    <h3  id="Type_cake11">Chocolate cake</h3>
+                    <h4 id="price11">110.0</h4>
+                    <h4>$</h4>
+                </div>
+               
+                    <input type="number" id="quantity11" name="quantity11" min="1" max="10" value="1" style="background-color:#ffe4e1">
+                    <select id="size11" name="size11" onclick="deleteE('message11')" style="background-color:#ffe4e1">
+                        <option value="size" disabled selected>Size</option>
+                        <option value="large size">large size</option>
+                        <option value="Small size">Small size</option>
+                        <option value="Medium size">Medium size</option>
+                        
+                    </select>
+                    <div>
+                        <button class="addTo" onclick="add(11)">Add<i class="fa fa-shopping-cart"></i></button>
+                    </div>
+                </div><div>
+                <p id="message11"></p>
+            </div></div>
+<div class="div12"style="color:#b8860b">
+<IMG SRC="image/maxresdefault.jpg" width="300px" height="300px"> </IMG> <br>
+<div>
+                    <h3  id="Type_cake12">Chocolate Cheesecake</h3>
+                    <h4 id="price12">200.0</h4>
+                    <h4>$</h4>
+                </div>
+               
+                    <input type="number" id="quantity12" name="quantity12" min="1" max="10" value="1" style="background-color:#ffe4e1">
+                    <select id="size12" name="size12" onclick="deleteE('message12')" style="background-color:#ffe4e1">
+                        <option value="size" disabled selected>Size</option>
+                        <option value="large size">large size</option>
+                        <option value="Small size">Small size</option>
+                        <option value="Medium size">Medium size</option>
+                        
+                    </select>
+                    <div>
+                        <button class="addTo" onclick="add(12)">Add<i class="fa fa-shopping-cart"></i></button>
+                    </div>
+                </div><div>
+                <p id="message12"></p>
+            </div>
+</div>
+<div class="div13" style="color:#8b008b" >
+<h2>Blueberry cakes</h2>
+<div>
+<IMG SRC="image/Lemon-Blueberry-Cake-1.jpg" width="300px" height="300px"> </IMG> <br>
+<div>
+                    <h3  id="Type_cake13">Blueberry cake</h3>
+                    <h4 id="price13">160.50</h4>
+                    <h3>$</h3>
+                </div>
+               
+                    <input type="number" id="quantity13" name="quantity13" min="1" max="10" value="1" style="background-color:#ffe4e1">
+                    <select id="size13" name="size13" onclick="deleteE('message13')" style="background-color:#ffe4e1">
+                        <option value="size" disabled selected>Size</option>
+                        <option value="large size">large size</option>
+                        <option value="Small size">Small size</option>
+                        <option value="Medium size">Medium size</option>
+                        
+                    </select>
+                    <div>
+                        <button class="addTo" onclick="add(13)">Add<i class="fa fa-shopping-cart"></i></button>
+                    </div>
+                </div><div>
+                <p id="message13"></p>
+            </div>
+</div>
+<div class="div14" style="color:#8b008b">
+<IMG SRC="image/تنزيل (5).jpg" width="300px" height="300px" > </IMG> <br>
+<div>
+                    <h3  id="Type_cake14">Blueberry cake</h3>
+                    <h4 id="price14">140.90</h4>
+                    <h4>$</h4>
+                </div>
+               
+                    <input type="number" id="quantity14" name="quantity14" min="1" max="10" value="1" style="background-color:#ffe4e1">
+                    <select id="size14" name="size14" onclick="deleteE('message14')" style="background-color:#ffe4e1">
+                        <option value="size" disabled selected>Size</option>
+                        <option value="large size">large size</option>
+                        <option value="Small size">Small size</option>
+                        <option value="Medium size">Medium size</option>
+                        
+                    </select>
+                    <div>
+                        <button class="addTo" onclick="add(14)">Add<i class="fa fa-shopping-cart"></i></button>
+                    </div>
+                </div><div>
+                <p id="message14"></p>
+            </div>
+</div>
+<div class="div15" style="color:#8b008b">
+<IMG SRC="image/1708-raw-blueberry-cake.jpg"  width="300px" height="300px"> </IMG> <br>
+<div>
+                    <h3  id="Type_cake15">Blueberry Cheesecake</h3>
+                    <h4 id="price15">130.90</h4>
+                    <h4>$</h4>
+                </div>
+               
+                    <input type="number" id="quantity15" name="quantity15" min="1" max="10" value="1" style="background-color:#ffe4e1">
+                    <select id="size15" name="size15" onclick="deleteE('message15')" style="background-color:#ffe4e1">
+                        <option value="size" disabled selected>Size</option>
+                        <option value="large size">large size</option>
+                        <option value="Small size">Small size</option>
+                        <option value="Medium size">Medium size</option>
+                        
+                    </select>
+                    <div>
+                        <button class="addTo" onclick="add(15)">Add<i class="fa fa-shopping-cart"></i></button>
+                    </div>
+                </div><div>
+                <p id="message15"></p>
+            </div></div>
+
+<div class="div16" style="color:#ffd700">
+<h2>Lemon cakes</h2>
+<IMG SRC="image/7898274.jpg"  width="300px" height="300px" > </IMG> <br>
+<div>
+                    <h3  id="Type_cake16">Lemon cake</h3>
+                    <h4 id="price16">89.90</h4>
+                    <h4>$</h4>
+                </div>
+               
+                    <input type="number" id="quantity16" name="quantity16" min="1" max="10" value="1" style="background-color:#ffe4e1">
+                    <select id="size16" name="size16" onclick="deleteE('message16')" style="background-color:#ffe4e1">
+                        <option value="size" disabled selected>Size</option>
+                        <option value="large size">large size</option>
+                        <option value="Small size">Small size</option>
+                        <option value="Medium size">Medium size</option>
+                        
+                    </select>
+                    <div>
+                        <button class="addTo" onclick="add(16)">Add<i class="fa fa-shopping-cart"></i></button>
+                    </div>
+                </div><div>
+                <p id="message16"></p>
+            </div>
+
+</div>
+<div class="div17" style="color:#ffd700">
+<IMG SRC="image/d2d92e471b8007dabda2f6748a1e80df.jpg"  width="300px" height="300px"> </IMG> <br>
+<div>
+                    <h3  id="Type_cake17">Lemon cake</h3>
+                    <h4 id="price17">170.90</h4>
+                    <h4>$</h4>
+                </div>
+               
+                    <input type="number" id="quantity17" name="quantity17" min="1" max="10" value="1" style="background-color:#ffe4e1">
+                    <select id="size17" name="size17" onclick="deleteE('message17')" style="background-color:#ffe4e1">
+                        <option value="size" disabled selected>Size</option>
+                        <option value="large size">large size</option>
+                        <option value="Small size">Small size</option>
+                        <option value="Medium size">Medium size</option>
+                        
+                    </select>
+                    <div>
+                        <button class="addTo" onclick="add(17)">Add<i class="fa fa-shopping-cart"></i></button>
+                    </div>
+                </div><div>
+                <p id="message17"></p>
+            </div></div>
+
+<div class="div18" style="color:#ffd700">
+<IMG SRC="image/Lemon Cheesecake 1.jpg"   width="300px" height="300px" > </IMG> <br>
+
+<div>
+                    <h3  id="Type_cake18">Lemon Cheesecake</h3>
+                    <h4 id="price18">110.0</h4>
+                    <h4>$</h4>
+                </div>
+               
+                    <input type="number" id="quantity18" name="quantity18" min="1" max="10" value="1" style="background-color:#ffe4e1">
+                    <select id="size18" name="size18" onclick="deleteE('message18')" style="background-color:#ffe4e1">
+                        <option value="size" disabled selected>Size</option>
+                        <option value="large size">large size</option>
+                        <option value="Small size">Small size</option>
+                        <option value="Medium size">Medium size</option>
+                        
+                    </select>
+                    <div>
+                        <button class="addTo" onclick="add(18)">Add<i class="fa fa-shopping-cart"></i></button>
+                    </div>
+                </div><div>
+                <p id="message18"></p>
+            </div></div><br><br><br>
+  <div class="cart"  style="color:#00000" >
+            <h3 class="tit" >My Bill</h3>
+            <!-- list of the PRODUCT in the cart -->
+            <ul id="items">
+            </ul> <br>
+            <h3 id="total"   style="text-align: right;" style="color:black" >Total: 0 $</h3>
+			 <button class="btn" ><a href='pay_method.html'>BUY</a></button>
+        </div></br>
+
+    </div>
+	<!------------------------------------------Start footer contact ---------------------------------->
+		<footer class="footer-distributed">
+ <!----------------------------------------------------------- footer-left(الحقوق واسم المتجر)----------------------------------------------->
+		
+                <div class="footer-left">
+		<h3>Emily’s<span>Store</span></h3>
+
+		<p class="footer-company-name">All the rights is to the website owner-  &copy; 2020</p>
+		</div>
+ 
+<!----------------------------------------------------------- footer-center(address email number phone)----------------------------------------------->
+		<div class="footer-center">
+		<div>
+		<i class="fa fa-map-marker"></i>
+		<p><span>44 Khalidiya Street   Mecca, Al-Qunfudhah</p></div>
+		<div>
+		<i class="fa fa-phone"></i>
+		<p>966559908093</p>
+		</div>
+		<div>
+		<i class="fa fa-envelope"></i>
+		<p><a href="mailto:support@company.com">rdyhalzbydy@gmail.com</a></p>
+		</div>
+		</div>
+<!----------------------------------------------------------- footer-right(about us and conact)----------------------------------------------->
+		<div class="footer-right">
+		<p class="footer-company-about">
+		<span>About the company</span>
+	We are a company that cares about fresh and delicious cakes
+			
+         
+
+ <!-------------Then upload the files to your media library and add them in the following way (for HTML websites)-------------->
+		
+                <!-- div for footer-->
+       <br><br> <div id="footer">
+            <div>
+                <div class="connect">
+                    <a href="http://www.facebook.com" class="facebook">facebook</a>
+                    <a href="http://www.twitter.com" class="twitter">twitter</a>
+                    
+					 
+                    <a href="http://www.pinterest.com" class="pinterest">pinterest</a>
+                </div>
+              
+            </div>
+		</div>
+		</footer>
+
+ 		<!-----------------------------------------End footer contact ----------------------------------------------->
+
+</body>
+</html> 

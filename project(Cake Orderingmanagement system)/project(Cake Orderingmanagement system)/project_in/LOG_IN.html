@@ -1,0 +1,131 @@
+<html><!---------We put <html>it in order to write all the code inside it. -------->
+<head>
+  
+ 
+    <title>login</title><!--The document address, which appears in the browser's address bar or in the page tongue, can contain only text, and any tags contained in it will be ignored.-->
+	
+
+	
+  
+<link href="Css/styles.css" type="text/css" rel="stylesheet" />
+ 
+
+	
+ <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="footer, address, phone, icons" />
+ 
+	
+	<!---------------------------------------- Add Bootstrap in footer---------------------------------------->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+   
+  
+  
+
+<script>  <!---------------------------------------- inner javascript---------------------------------------->
+function validateform(){  <!---------------------------------------- name of function------------------------------------>
+var name=document.myform.name.value;  <!-------------decleard variable name var type  document.myform.name.value --------------------------------------->
+var password=document.myform.password.value;  
+  if (name==null || name==""){  <!---If the name is empty. 
+  alert("Name can't be blank");<!---A function of alert, a function that highlights a pop-up message for the user within the browser. And we need to give it the text to be displayed to the user.  show the massge Name can't be blank  ----->  
+  return false;  
+}else if(password.length<6){  
+  alert("Password must be at least 6 characters long.");  <!--- ----> Password must be at least 6 characters long --->
+  return false;  
+  }  
+}
+  
+</script>
+</head>
+    
+	
+<body>
+
+ <br><br>
+ <div>
+
+        <!--  header-->
+        
+          <header>       
+               
+			<b><div class="topnav2" >
+			<nav>
+
+                <ul><!--   Represent an unranked list of items, which are presented as a dotted list  -->
+                     <li><a  href='home.html'>Home</a></li>
+<li><a href='LOG_IN.html'>Log in</a></li>
+                    <li><a href='Sing_in.html'>Sign up</a></li>
+			<IMG SRC="image/logo.jpeg"  id="logo" width="300px" height="300px" > </IMG>
+                   
+					 <li><a href='‏‏CAKE_page .htm'>Ordering</a></li>
+					  <li><a href='pay_method.html'>Payment</a></li>
+                </ul> 
+				
+
+				</nav>
+            </div></header></b><br><br>
+<fieldset>
+<p style ="color:#800080"><em><b>Welcom to our store</em><b></p><!-- We displayed a bold and italic address in the middle of the page.   -->
+ <img src="image/logo.jpeg" width="400px" height="300px">
+<body>  
+<form name="myform" method="post" action="http://www.javatpoint.com/javascriptpages/valid.jsp" onsubmit="return validateform()" >  
+<table><!--    to create a table  Allows you to view the information neatly and divided into columns and lines     -->
+<b><tr><td style="font-size:18px">Name:</td><td>  <input type="text"  id="user" name="name"></b> </td></tr>
+<b> <tr><td style="font-size:18px">Password:</td><td> <input type="password"  id="pass" name="password"></b> </td></tr> </table><br>
+<a class="forget" href='forget_pass.html' style="text-decoration:underline">Forget password?</a><br>
+<a class="forget" href='Sing_in.html' style="text-decoration:underline">Dont have acount?</a>
+<input type="submit" id="register" value="register"></br></br> <!--type="submit" For a dedicated button to send form data   -->
+</fieldset>   
+
+ <!------------------------------------------Start footer contact ---------------------------------->
+		<footer class="footer-distributed">
+ <!----------------------------------------------------------- footer-left----------------------------------------------->
+		
+                <div class="footer-left">
+		<h3>Emily’s<span>Store</span></h3>
+
+		<p class="footer-company-name">All the rights is to the website owner-  &copy; 2020</p>
+		</div>
+ 
+<!----------------------------------------------------------- footer-center----------------------------------------------->
+		<div class="footer-center">
+		<div>
+		<i class="fa fa-map-marker"></i>
+		<p><span>44 Khalidiya Street   Mecca, Al-Qunfudhah</p></div>
+		<div>
+		<i class="fa fa-phone"></i>
+		<p>966559908093</p>
+		</div>
+		<div>
+		<i class="fa fa-envelope"></i>
+		<p><a href="mailto:support@company.com">rdyhalzbydy@gmail.com</a></p>
+		</div>
+		</div>
+<!----------------------------------------------------------- footer-right----------------------------------------------->
+		<div class="footer-right">
+		<p class="footer-company-about">
+		<span>About the company</span>
+	We are a company that cares about fresh and delicious cakes
+			
+         
+
+ <!-------------Then upload the files to your media library and add them in the following way (for HTML websites)-------------->
+		
+                <!-- div for footer-->
+       <br><br> <div id="footer">
+            <div>
+                <div class="connect">
+                    <a href="http://www.facebook.com" class="facebook">facebook</a>
+                    <a href="http://www.twitter.com" class="twitter">twitter</a>
+                    
+					 
+                    <a href="http://www.pinterest.com" class="pinterest">pinterest</a>
+                </div>
+              
+            </div>
+		</div>
+		</footer>
+
+ 		<!-----------------------------------------End footer contact ----------------------------------------------->
+</form></body></html>
